@@ -6,20 +6,24 @@ html {
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f1f1f;
+    background-color: mediumseagreen;
 }
 
 main {
     width: 22.5em;
     display: inline-block;
-    background-color: rgb(0, 86, 184);
+    background-color: rgba(0, 52, 184, 0.833);
     color: #fff;
     border-radius: .25em;
-    box-shadow: .2em .2em 2em rgba(0, 0, 0, .2);
+    box-shadow: .2em .2em 2em rgba(0, 0, 0, 0.036);
+}
+.tenor-gif-embed{
+
+    margin-top: 1.5rem;
 }
 #time {
     display: flex;
@@ -45,14 +49,15 @@ p {
     height: 2em;
     margin: .1em;
     font-size: 1.1rem;
-    background-color: rgb(0, 109, 235);
+    background-color: rgba(0, 141, 235, 0.803);
     color: #000;
     border: none;
     outline: none;
 }
 .btn:hover {
     transform: scale(1.1);
-    background-color: rgb(50, 146, 255);
+    background-color: rgba(50, 255, 142, 0.826);
+    transition: background-color 0.7s;
 }
 #btn_start {
     border-radius: .5em 0 0 .5em;
